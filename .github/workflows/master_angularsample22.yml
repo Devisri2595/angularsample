@@ -53,4 +53,4 @@ jobs:
         app-name: 'angularsample22'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b7ab11e8c1974aaa8adf709065c735b1 }}
-        package: .
+        package: ./dist/angularsample22
